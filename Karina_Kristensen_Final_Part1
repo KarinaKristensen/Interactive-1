@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+
+<style>
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Notable');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+
+div:hover {
+    background-color: #FF0000;
+    opacity: .3;
+  }
+
+a.ex2:hover, a.ex2:active {
+  font-family: monospace;
+}
+
+#ZeroZero  {
+    transform: rotate(0deg);
+    position: absolute;
+    top: -200px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    font-family:'Notable', sans-serif;
+
+  }
+
+#Zero:hover {
+    transform: rotate(0deg);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    font-size: 18px;
+   }
+
+
+#One {
+    transform: rotate(0deg);
+    position: fixed;
+    top: -200px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    font-family: 'Notable', sans-serif;
+    opacity: .3;
+
+   }
+
+
+
+
+
+     h1{
+       color: black;
+       font-size: 225px;
+       font-family:'Notable', sans-serif;
+     }
+
+     body {
+         background-image: url("file:///Users/karina/Desktop/CCA/Screen%20Shot%202018-09-29%20at%2020.33.47.png");
+         background-repeat: 2;
+         background-size:cover;
+     }
+
+.flashthis {
+        animation: mymove 1s infinite alternate;
+
+}
+
+
+
+     @keyframes mymove {
+         0%   {opacity:0.8;}
+         100% {opacity:0.5}
+     }
+
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+<div id="ZeroZero" >
+
+    <center><h1 >It started with 9/11.</h1></center><br>
+        <center><h1>It started with 9/11. </h1></center>
+        <p style="float: left"> 911 </p>
+      </div>
+
+<div id="One">
+
+    <center><h1 >It started with 9/11.</h1></center><br>
+        <center><h1>It started with 9/11. </h1></center>
+        <p style="float: left"> 911 </p>
+      </div>
+
+
+
+  <div id="Zero" class="flashthis" class="ex2">
+
+    <center>
+  <p style="color:AntiqueWhite"><span style="font-size:20pt">
+    <a class="ex2">
+<p id="demo" onclick="myFunction()" style="color:#FF5500">
+      I was in Toronto. <br>
+      The second plane hit.<br>
+      I was puzzled.<br>
+      Confused.<br>
+      Looking for insights and explanations, I came across blogs.<br>
+
+
+      Suddenly, it hit me:<br>
+
+      This is it, I should start one.<br>
+
+      So, I started experimenting.<br>
+
+
+      November 5, 2001.<br>
+
+      I published a step-to-step guide on how to start a blog.<br>
+
+      That suddenly sparked a blogging revolution of which I became the leader.<br>
+
+      The "blogfather."<br>
+
+      Soon, hundreds and thousands of Iranians <br>made it one of the top 5 nations by the number of blogs.<br>
+
+      Every morning, from my small apartment in downtown Toronto, <br>I opened my computer and took care of the new blogs, <br>helping them gain exposure and audience.<br>
+
+      It was a diverse crowd: <br>exiled authors and journalists, female diarists, <br>and technology experts, local journalists, <br>politicians, clerics, war veterans.<br>
+
+      I invited more religious, <br>and pro-Islamic Republic men and women, <br>people who lived inside Iran, to join and start writing.<br>
+
+
+
+      I’d left Iran late 2000 to experience living in the West.<br>
+
+      I was scared that I was missing all the rapidly emerging trends at home.<br>
+
+      Reading Iranian blogs in Toronto <br>was the closest experience I could have <br>to sitting in a shared taxi in Tehran <br>and listening to collective conversations between <br>the talkative driver and random passengers.</span></p></div>
+</p>
+
+<script>
+      function myFunction() {
+          document.getElementById("demo").style.color = "white";
+      }
+</script>
+</body>
+</html>

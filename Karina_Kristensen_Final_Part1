@@ -70,7 +70,7 @@ a.ex2:hover, a.ex2:active {
      }
 
      body {
-         background-image: url("file:///Users/karina/Desktop/CCA/Screen%20Shot%202018-09-29%20at%2020.33.47.png");
+         background-image: url("file:///Screen%20Shot%202018-09-29%20at%2020.33.47.png");
          background-repeat: 2;
          background-size:cover;
      }

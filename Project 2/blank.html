@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Image Example from Max</title>
+  <meta name="description" content="Image Example from Max">
+  <meta name="author" content="Interactive 1">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+<style>
+
+img {
+  width:200px;
+  float: right;
+  margin:40px;
+}
+
+div {
+  width:49vw;
+  height:50vh;
+  background-color: yellow;
+  background-image: url("images/street.jpg");
+  background-size: cover;
+  background-position: center;
+  float:left;
+}
+
+div.different{
+  background-image: url("images/breakfast.jpg");
+}
+
+div.different-happy{
+  background-image: url("images/smile.png");
+  background-color: red;
+  transition: 1s;
+}
+
+div.different-happy:hover{
+  background-color: black;
+  transition: 1s;
+}
+
+p{
+  color:yellow;
+  text-align: center;
+  font-size: 40px;
+}
+
+div.different p{
+  color:red;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+  <div>
+    <p> welcome to my cool site</p></div>
+  <div class="different">
+    <p> please stay a while </p></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div class="different"></div>
+  <div></div>
+  <div></div>
+  <div class="different-happy"></div>
+  <div class="different"></div>
+
+</body>
+</html>

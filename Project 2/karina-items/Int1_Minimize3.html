@@ -1,0 +1,445 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Minimize</title>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/emw1rgj.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline|Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/emw1rgj.css">
+  <link rel="stylesheet" href="css/brain.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+
+      $(".word1").click(function() {
+        $(".brain").addClass("word1-clicked");
+      });
+
+      $(".word2").click(function() {
+        $(".brain").css({
+          "transform-origin": "100%",
+        });
+      });
+
+      $(".word3").click(function() {
+        $(".brain").css({
+          "transform-origin": "0%",
+        });
+      });
+
+      $(function() {
+        var rotation = 0,
+          scrollLoc = $(document).scrollTop();
+        $(window).scroll(function() {
+          var newLoc = $(document).scrollTop();
+          var diff = scrollLoc - newLoc;
+          // rotation += diff, scrollLoc = newLoc;
+          // var rotationStr = "rotate(" + rotation + "deg)";
+
+          $(".hat").css({
+            "-webkit-transform": "translateY(" + diff + "px)",
+          });
+
+          $(".brainimage").css({
+            "-webkit-transform": "translateY(" + diff / 2 + "px)",
+          });
+
+          $(".thisthat").css({
+            "transform": "scale(" + ((diff / -500) + .2) + ")",
+          });
+
+        });
+      })
+
+    });
+  </script>
+
+
+
+
+
+  <style>
+    body {
+      background-color: #6c95ae;
+      overflow-x: hidden;
+    }
+
+    img {
+      width: 80vw;
+      margin-top: 80px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 60px;
+      position: relative;
+    }
+
+
+
+    h1 {
+      color: #f6a183;
+      font-family: rift-soft, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1000%;
+      letter-spacing: 35px;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    #Zero {
+      transform: rotate(-20deg);
+      position: relative;
+      top: 224px;
+      left: 20%;
+      right: 0;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 200%;
+    }
+
+    #One {
+      transform: rotate(30deg);
+      position: relative;
+      top: 410px;
+      left: 20%;
+      right: 0;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 140%;
+    }
+
+    #Two {
+      transform: rotate(50deg);
+      position: relative;
+      top: 470px;
+      left: 0%;
+      right: auto;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 100%;
+    }
+
+    #Three {
+      transform: rotate(-75deg);
+      position: relative;
+      top: -530px;
+      left: -20%;
+      right: auto;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 200%;
+    }
+
+    #Four {
+      transform: rotate(-60deg);
+      position: relative;
+      top: -580px;
+      left: 40%;
+      right: auto;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 200%;
+    }
+
+    #Five {
+      transform: rotate(40deg);
+      position: relative;
+      top: 460px;
+      left: 800px;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 110%;
+    }
+
+    #Six {
+      transform: rotate(50deg);
+      position: relative;
+      top: 400px;
+      left: 60%;
+      right: auto;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 210%;
+    }
+
+    #Seven {
+      transform: rotate(-20deg);
+      position: relative;
+      top: -80px;
+      left: 800px;
+      right: auto;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 125%;
+    }
+
+    #Eight {
+      transform: rotate(-20deg);
+      position: relative;
+      top: -40px;
+      left: 70%;
+      right: auto;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 190%
+    }
+
+    #Nine {
+      transform: rotate(30deg);
+      position: relative;
+      top: 30px;
+      left: 65%;
+      right: auto;
+      bottom: 0;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 120%;
+    }
+
+
+
+
+
+
+    .Freud {
+      font-size: 320%;
+      position: relative;
+      color: white;
+      font-family: ingeborg-striped, sans-serif;
+      font-weight: 890;
+      font-style: normal;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .flashthis {
+      animation: mymove 1.2s infinite alternate;
+    }
+
+
+
+    @keyframes mymove {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1
+      }
+    }
+
+
+    .all p {
+      -webkit-column-count: 3;
+      /* Chrome, Safari, Opera */
+      -moz-column-count: 3;
+      /* Firefox */
+      column-count: 3;
+      width: 80vw;
+      left: 10vw;
+      position: relative;
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2vw;
+      border-top: 6px solid #e27c55;
+      border-bottom: 6px solid #e27c55;
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+
+    .hat {
+      margin-top: 100px;
+      margin-bottom: -110px;
+      z-index: 9;
+    }
+
+    .face {
+      z-index: 8;
+    }
+
+    .brainimage {
+      width: 2px;
+      height: 2px;
+      position: absolute;
+      left: calc(50vw - 200px);
+    }
+
+    .holdhead {
+      position: absolute;
+    }
+
+    .thisthat {
+      height: 660px;
+      margin-top: -50px;
+      transform: scale(0);
+    }
+
+
+    .brainholder {
+      width: 100vw;
+    }
+
+    .brain {
+      position: absolute;
+      transform-origin: 50%;
+      margin-left: 10vw;
+      margin-top: 0vh;
+    }
+
+    .boldtext{
+      color: white;
+      font-family: rift-soft, sans-serif;
+      font-weight: bold;
+      font-size: 2vw;
+    }
+
+                            .word1, .word2, .word3{
+                              color: #f6a183;
+                              font-family: rift-soft, sans-serif;
+                              font-weight: 400;
+                              font-style: normal;
+                              font-size: 200%;
+                              letter-spacing: 35px;
+                              text-align: center;
+                            }
+
+
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+  <h1 class="title"> <a class="flashthis"> MINIMIZE</a></h1>
+  <!-- <hr style="width:80%; height:6px; background-color: #e27c55; border:none;" /> -->
+  <hr style="width:80%; height:6px; background-color: #e27c55; border:none;" />
+
+  <div class="holdhead">
+    <img src="images/hat.png" style="width:25%" class="hat">
+    <div class="brainimage"><img src="file:///Users/karina/Desktop/CCA/brain.png"></div>
+    <img src="images/FACE.png" style="width:25%" class="face">
+  </div>
+
+  <div class="thisthat">
+    <div id="Zero">
+      THIS </div>
+    <div id="One">
+      THAT </div>
+    <div id="Two">
+      THIS </div>
+    <div id="Three">
+      THAT </div>
+    <div id="Four">
+      THIS </div>
+    <div id="Five">
+      THAT </div>
+    <div id="Six">
+      THIS </div>
+    <div id="Seven">
+      THAT </div>
+    <div id="Eight">
+      THAT </div>
+    <div id="Nine">
+      THIS </div>
+  </div>
+
+  <!-- <hr style="width:80%; height:6px; background-color: #e27c55; border:none;" /> -->
+  <div class="all all1">
+    <p>
+      <span class="changetext1"><span class="boldtext">IMAGINE!</span> You could get rid of certain thoughts or emotions, just to focus on a few, or even just one... And what if I told you there’s a way this could work... The device from which
+      you’re reading this from could potentially be able to take your thoughts and store them for you to <span class="boldtext">check later.</span> Not ready to take them back? That’s ok. Just save them for later, when you are ready. If you’re someone that works well under stress, then this may not be for you. But if you are someone
+      that cannot handle having multiple thoughts in your head, or someone that lets their emotions take over making it harder to focus on anything else, then this may be just the thing you need. The idea would be for your device to have a
+      <span class="boldtext">bluetooth connection to your mind.</span> This would allow airdrop to connect them both, and when it opens on your screen, you can pick a thought or emotion to airdrop to your device, and BOOM it’s gone! Now imagine how convenient that would be,
+      with <span class="boldtext">just one click.</span> Want to learn more about the background to this new concept? <span class="boldtext"> then keep reading... </span>
+    </p>
+  </div>
+
+  <!-- <hr style="width:80%; height:6px; background-color: #e27c55; border:none;" /> -->
+
+
+  <div class="Freud">
+    <center> Ever heard of Sigmund Freud?</center>
+  </div>
+
+  <div class="all">
+    <p>
+      <span class="boldtext">Introducing the ID.</span> The ID in an individual represents their instinct. It’s what comes first, the primitive and instinctive component of a personality. It presents itself in the unconscious mind, as the impulsive aspect. For instance, a
+      baby’s personality and actions all comes from the id and unconsicous mind. It remains the same throughout your life, and does not change with experience.
+      <span class="boldtext">Introducing the EGO.</span> The EGO is the part of the id that has been modified or influenced directly by the external world. It serves as a mediator between the id and the external world. Its purpose is to be the decision-maker aspect of your
+      personality. If we were to compare it with the id, the ego would make decisions based of off reason, whereas the id is chaotic and unreasonable.
+      <span class="boldtext">Indroducing the SUPEREGO.</span> The superego is what the individual learns from it’s primary surroundings, such as parents and other close individuals. This phase occurs between the ages of 3-5. It controls the id’s impulses (often forbidden ones
+      such as sex and aggression). It aids the ego in turning into moralistic goals rather than realistic, and strives for perfections.
+    </p>
+  </div>
+
+
+  <div class="brainholder">
+    <div class="word word1">PRECONSCIOUS</div>
+    <div class="word word2">UNCONSCIOUS</div>
+    <div class="word word3">SUBCONSCIOUS</div>
+    <img class="brain1 brain" src="images/BRAINnotext.png">
+    <img class="brain2 brain" src="images/BRAINnotext.png">
+    <img class="brain3 brain" src="images/BRAINnotext.png">
+    <img class="brain4 brain" src="images/BRAINnotext.png">
+    <img class="brain5 brain" src="images/BRAINnotext.png">
+    <img class="brain6 brain" src="images/BRAINnotext.png">
+    <img class="brain7 brain" src="images/BRAINnotext.png">
+    <img class="brain8 brain" src="images/BRAINnotext.png">
+    <img class="brain9 brain" src="images/BRAINnotext.png">
+    <img class="brain10 brain" src="images/BRAINnotext.png">
+    <img class="brain11 brain" src="images/BRAINnotext.png">
+    <img class="brain12 brain" src="images/BRAINnotext.png">
+    <img class="brain13 brain" src="images/BRAINnotext.png">
+    <img class="brain14 brain" src="images/BRAINnotext.png">
+    <img class="brain15 brain" src="images/BRAINnotext.png">
+    <img class="brain16 brain" src="images/BRAINnotext.png">
+    <img class="brain17 brain" src="images/BRAINnotext.png">
+    <img class="brain18 brain" src="images/BRAINnotext.png">
+    <img class="brain19 brain" src="images/BRAINnotext.png">
+    <img class="brain20 brain" src="images/BRAINnotext.png">
+  </div>
+
+</html>

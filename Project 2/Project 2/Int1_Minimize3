@@ -1,0 +1,294 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Title</title>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Minimize</title>
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/emw1rgj.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline|Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/emw1rgj.css">
+    <link rel="stylesheet" href="css/brain.css">
+
+
+<style>
+
+
+body{
+  background-color: #6c95ae;
+  overflow-x:hidden;
+}
+
+img {
+  width:80vw;
+  margin-top: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+
+
+h1{
+  color: #f6a183;
+  font-family: rift-soft, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1000%;
+  letter-spacing: 35px;
+}
+
+.title {
+  text-align:center;
+}
+
+#Zero {
+    transform: rotate(-20deg);
+    position: relative;
+    top: -700px;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+    color: white;
+    font-family: rift-soft, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 200%;
+    }
+
+    #One {
+        transform: rotate(30deg);
+        position: relative;
+        top: -200%;
+        left: 20%;
+        right: 0;
+        bottom: 0;
+        color: white;
+        font-family: rift-soft, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 140%; }
+
+        #Two {
+            transform: rotate(50deg);
+            position: relative;
+            top: 100%;
+            left: 0%;
+            right: auto;
+            bottom: 0;
+            color: white;
+            font-family: rift-soft, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 100%;}
+
+            #Three {
+                transform: rotate(-75deg);
+                position: relative;
+                top: -900px;
+                left: -20%;
+                right: auto;
+                bottom: 0;
+                color: white;
+                font-family: rift-soft, sans-serif;
+                font-weight: 700;
+                font-style: italic;
+                font-size: 200%; }
+
+                #Four {
+                    transform: rotate(-60deg);
+                    position: relative;
+                    top: -1000px;
+                    left: 40%;
+                    right: auto;
+                    bottom: 0;
+                    color: white;
+                    font-family: rift-soft, sans-serif;
+                    font-weight: 700;
+                    font-style: italic;
+                    font-size: 200%;}
+
+                    #Five {
+                        transform: rotate(40deg);
+                        position: relative;
+                        top: 20px;
+                        left: 800px;
+                        bottom: 0;
+                        color: white;
+                        font-family: rift-soft, sans-serif;
+                        font-weight: 700;
+                        font-style: italic;
+                        font-size: 110%;}
+
+                        #Six {
+                            transform: rotate(50deg);
+                            position: relative;
+                            top: -200px;
+                            left: 60%;
+                            right: auto;
+                            bottom: 0;
+                            color: white;
+                            font-family: rift-soft, sans-serif;
+                            font-weight: 700;
+                            font-style: italic;
+                            font-size: 210%;}
+
+                            #Seven {
+                                transform: rotate(-20deg);
+                                position: relative;
+                                top: -950px;
+                                left: 800px;
+                                right: auto;
+                                bottom: 0;
+                                color: white;
+                                font-family: rift-soft, sans-serif;
+                                font-weight: 700;
+                                font-style: italic;
+                                font-size: 125%; }
+
+                                #Eight {
+                                    transform: rotate(-20deg);
+                                    position: relative;
+                                    top: -850px;
+                                    left: 70%;
+                                    right: auto;
+                                    bottom: 0;
+                                    color: white;
+                                    font-family: rift-soft, sans-serif;
+                                    font-weight: 700;
+                                    font-style: italic;
+                                    font-size: 190% }
+
+                                    #Nine {
+                                        transform: rotate(30deg);
+                                        position: relative;
+                                        top: -450px;
+                                        left: 65%;
+                                        right: auto;
+                                        bottom: 0;
+                                        color: white;
+                                        font-family: rift-soft, sans-serif;
+                                        font-weight: 700;
+                                        font-style: italic;
+                                        font-size: 120%;}
+
+
+
+
+
+
+.Freud{
+  font-size: 320%;
+  position: relative;
+  color:  white;
+  font-family: ingeborg-striped, sans-serif;
+  font-weight: 890;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flashthis {
+        animation: mymove 1.2s infinite alternate;
+}
+
+
+
+     @keyframes mymove {
+         0%   {opacity:0;}
+         100% {opacity:1}
+     }
+
+
+.all p {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+-moz-column-count: 3; /* Firefox */
+column-count: 3;
+width:80vw;
+left: 10vw;
+position:relative;
+color: white;
+font-family: rift-soft, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2vw;
+border-top: 6px solid #e27c55;
+border-bottom: 6px solid #e27c55;
+padding-top: 90px;
+padding-bottom: 90px;
+}
+
+
+
+</style>
+
+
+
+
+  <body>
+
+<h1 class="title"> <a class="flashthis"> MINIMIZE</a></h1>
+<!-- <hr style="width:80%; height:6px; background-color: #e27c55; border:none;" /> -->
+<hr style="width:80%; height:6px; background-color: #e27c55; border:none;"/>
+<img src="file:///Users/karina/Desktop/CCA/Second%20Year/Interactive%201/Project%202/Project%202/images%20final%20minimize/hat.png" style="width:25%">
+
+<img src="file:///Users/karina/Desktop/CCA/Second%20Year/Interactive%201/Project%202/Project%202/images%20final%20minimize/FACE.png" style="width:25%"></div>
+
+<div id="Zero">
+  THIS </div>
+  <div id="One">
+    THAT </div>
+    <div id="Two">
+      THIS </div>
+        <div id="Three">
+          THAT </div>
+          <div id="Four">
+            THIS </div>
+            <div id="Five">
+              THAT </div>
+              <div id="Six">
+                THIS </div>
+                <div id="Seven">
+                  THAT </div>
+                  <div id="Eight">
+                    THAT </div>
+                    <div id="Nine">
+                      THIS </div>
+
+<!-- <hr style="width:80%; height:6px; background-color: #e27c55; border:none;" /> -->
+          <div class="all all1">
+            <p>
+             IMAGINE! You could get rid of certain thoughts or emotions, just to focus on a few, or even just one... And what if I told you there’s a way this could work... The device from which you’re reading this from could potentially be able to take your thoughts and store them for you to check later. Not ready to take them back? That’s ok. Just save them for later, when you are ready.  If you’re someone that works well under stress, then this may not be for you. But if you are someone that cannot handle having multiple thoughts in your head, or someone that lets their emotions take over making it harder to focus on anything else,  then this may be just the thing you need.  The idea would be for your device to have a bluetooth connection to your mind. This would allow airdrop to connect them both, and when it opens on your screen, you can pick a thought or emotion to airdrop to your device, and BOOM it’s gone! Now imagine how convenient that would  be, with just one click. Want to learn more about  the background to this new concept? then keep reading...
+            </p>
+          </div>
+
+<!-- <hr style="width:80%; height:6px; background-color: #e27c55; border:none;" /> -->
+
+
+<div class="Freud"><center> Ever heard of Sigmund Freud?</center></div>
+
+          <div class="all">
+            <p>
+              Introducing the ID. The ID in an individual represents their instunct. It’s what comes first, the primitive and instinctive component of a personality. It presents itself in the unconscious mind, as the impulsive aspect. For instance, a baby’s personality and actions all comes from the id and unconsicous mind. It remains the same throughout your life, and does not change with experience.
+              Introducing the EGO. The EGO is the part of the id that has been modified or influenced directly by the external world. It serves as a mediator between the id and the external world. Its purpose is to be the decision-maker aspect of your personality. If we were to compare it with the id, the ego would make decisions based of off reason, whereas the id is chaotic and unreasonable.
+              Indroducing the SUPEREGO. The superego is what the individual learns from it’s primary surroundings, such as parents and other close individuals. This phase occurs between the ages of 3-5. It controls the id’s impulses (often forbidden ones such as sex and aggression). It aids the ego in turning into moralistic goals rather than realistic, and strives for perfections.
+            </p>
+          </div>
+
+
+<div class="brainholder">
+<img class="brain1 brain" src="file:///Users/karina/Desktop/BRAINnotext.png">
+<img class="brain2 brain" src="file:///Users/karina/Desktop/BRAINnotext.png">
+<img class="brain3 brain" src="file:///Users/karina/Desktop/BRAINnotext.png">
+<img class="brain4 brain" src="file:///Users/karina/Desktop/BRAINnotext.png">
+<img class="brain5 brain" src="file:///Users/karina/Desktop/BRAINnotext.png">
+<img class="brain6 brain" src="file:///Users/karina/Desktop/BRAINnotext.png">
+</div>
+  </html>

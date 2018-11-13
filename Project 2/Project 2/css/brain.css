@@ -1,0 +1,33 @@
+.brain {
+  position:absolute;
+  margin-top:0;
+}
+
+.brain2 {
+  transform:scale(.96);
+  margin-top:10px;
+  animation-name: turnon;
+  animation-delay: .01
+}
+
+.brain3 {
+  transform:scale(.94);
+  margin-top:40px;
+  animation-name: turnon;
+  animation-delay: .02;
+}
+
+.brain4 {
+  transform:scale(.92);
+  margin-top:80px;
+}
+
+.brain5 {
+  transform:scale(.90);
+  margin-top:120px;
+}
+
+.brain6 {
+  transform:scale(.88);
+  margin-top:140px;
+}
